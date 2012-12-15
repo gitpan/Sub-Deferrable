@@ -17,7 +17,9 @@ name: Sub-Deferrable
 provides:
   Sub::Deferrable:
     file: lib/Sub/Deferrable.pm
-    version: 0.04
+    version: 0.05
+requires:
+  perl: 5.008001
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.04
+version: 0.05

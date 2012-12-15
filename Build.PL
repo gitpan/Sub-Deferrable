@@ -36,6 +36,7 @@ my $builder = $class->new(
     dist_version_from   => 'lib/Sub/Deferrable.pm',
 
     requires => {
+        'perl'  => '5.008001',
     },
 
     build_requires => {

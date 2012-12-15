@@ -24,12 +24,17 @@
          "requires" : {
             "Module::Build" : "0.33"
          }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.008001"
+         }
       }
    },
    "provides" : {
       "Sub::Deferrable" : {
          "file" : "lib/Sub/Deferrable.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -38,5 +43,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
